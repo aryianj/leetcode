@@ -5,8 +5,9 @@ class Solution(object):
             if i < len(word1):
                 word += word1[i]
             if i < len(word2):
-                 word += word2[i]
+                word += word2[i]
         return word
+
         """
         :type word1: str
         :type word2: str
